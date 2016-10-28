@@ -1,0 +1,190 @@
+html, body{
+    font-family: 'Open Sans';
+}
+
+.body-padding{
+    padding-top:150px;
+}
+
+.dropdown-menu > container{
+    width: auto;
+}
+/* Menu gorne z zakladkami ogolnymi */
+
+#top-nav{
+    background-color: #333;
+    color: #bbb;
+    height: 4rem;
+}
+
+#top-nav li{
+    font-size: 1.3rem;
+}
+
+#top-nav li > a{
+     color: #fff;
+}
+
+#top-nav li.active a{
+    color: #333;
+}
+
+#top-nav .nav-pills > li > a:hover{
+    background-color: #424242;
+    color: #fff;
+}
+
+#top-nav .nav-tabs > li > a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Menu wlasciwe */
+
+#main-header{
+    background-color: #ffffff;
+    padding-top: 10px;
+}
+
+.navbar{
+    margin-bottom: 0px;
+}
+
+.navbar-default{
+    background: none;
+    border: none;
+}
+
+.navbar-brand img{
+    margin-top: -25px;
+    width: 350px;
+}
+
+.navbar-brand .visible-xs{
+    padding-left: 0px;
+    margin-top: 0px;
+    width: 50px;
+}
+
+.navbar-nav > li > a {
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+.navbar-nav.pull-right > li {
+    display: inline-block;
+}
+
+.navbar-nav > li > a:hover{
+
+    color: white;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover {
+    color: #cb958e;
+    background-color: #fff;  
+}
+
+.navbar-nav > li.phone > a {
+    color: #4ba3c3; 
+}
+
+.navbar-nav > li.phone > a:hover {
+    color: #36809b; 
+}
+
+.navbar-nav > li.cart > a {
+    color: #8db580;
+}
+
+.navbar-nav > li.cart > a:hover{
+    color: #799b6e;
+}
+
+.navbar-nav > li.credit-card > a {
+    color: #8963ba;
+}
+
+.navbar-nav > li.credit-card > a:hover{
+    color: #7555a0;
+}
+
+.navbar-nav > li.envelope > a:hover {
+    color: #2e5266;
+}
+
+.navbar-nav > li.envelope > a {
+    color: #457d9b;
+}
+
+
+.dropdown:hover .dropdown-menu{
+    border-top: 6px solid #f22b29;
+    display: block;
+}
+
+.dropdown:active .dropdown-menu{
+        border-top: 6px solid #f22b29;
+
+}
+
+.dropdown > .dropdown-menu{
+    margin-top: 0px;
+}
+
+/* Menu ofertowe */
+
+#offer-menu{
+    margin-top: 5px;
+    background:#fff;
+    text-align: center;
+    border-bottom: 6px solid #f22b29;
+}
+
+.nav-tabs.nav-justified > li > a{
+    border: none;
+    border-radius: 0px;
+    color: #f22b29;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+.nav > li.open > a:visited,
+.nav > li.open > a,
+.nav > li > a:focus,
+.nav > .open > a:hover{
+    background-color: #f22b29;
+    color: #fff;
+}
+
+.nav-tabs.nav-justified > li > a {
+    padding: 5px 15px 5px 15px;
+    border-left: 1px solid #f22b29;
+}
+
+.nav-tabs.nav-justified > li:first-child > a{
+    border : none;
+}
+
+.nav-tabs.nav-justified > li > a:hover{
+    background-color: #f22b29;
+    color: #fff;
+}
+
+/* Baner glowny */
+
+#mainBanner{
+    min-height: 1400px;
+    background-image: url("../img/banner.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Offer Form */
+
+#offer-form{
+    height: 1000px;
+    background: #f25b4d;
+}
+
