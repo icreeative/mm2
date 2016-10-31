@@ -44,6 +44,7 @@ html, body{
 #main-header{
     background-color: #ffffff;
     padding-top: 10px;
+        border-bottom: 1px solid #ccc;
 }
 
 .navbar{
@@ -139,7 +140,7 @@ html, body{
     margin-top: 5px;
     background:#fff;
     text-align: center;
-    border-bottom: 6px solid #f22b29;
+    border-bottom: 6px solid #e63946;
 }
 
 .nav-tabs.nav-justified > li > a{
@@ -174,17 +175,50 @@ html, body{
 
 /* Baner glowny */
 
-#mainBanner{
-    min-height: 1400px;
-    background-image: url("../img/banner.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
+#main-banner{
+    border-bottom: 5px solid #cb958e;
 }
-
 /* Offer Form */
 
 #offer-form{
-    height: 1000px;
-    background: #f25b4d;
+    min-height: 130px;
+    background: #e63946 ;
+    color: #fff;
+    border-bottom: 1px solid #ccc;
 }
 
+#offer-form-heading{
+    font-size: 2.2rem;
+}
+
+h2#offer-form-heading{
+    margin-top:20px;
+}
+
+#offer-form-heading{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+form-inline > form-group > input, .form-control {
+    height: 45px;
+}
+
+#offer-form-nr{
+}
+
+.offer-form-btn{
+
+    color: #efefef;
+    background: #FFCA0E;
+    border-color: #f0ad4e;
+}
+
+input#offer-form-ul{
+    box-sizing: border-box;
+}
+
+.form-inline .form-group input,
+.form-inline .form-group select {
+    width: 100%;
+}
