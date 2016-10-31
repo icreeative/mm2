@@ -44,7 +44,6 @@ html, body{
 #main-header{
     background-color: #ffffff;
     padding-top: 10px;
-        border-bottom: 1px solid #ccc;
 }
 
 .navbar{
@@ -126,8 +125,7 @@ html, body{
 }
 
 .dropdown:active .dropdown-menu{
-        border-top: 6px solid #f22b29;
-
+    border-top: 6px solid #f22b29;
 }
 
 .dropdown > .dropdown-menu{
@@ -161,7 +159,6 @@ html, body{
 
 .nav-tabs.nav-justified > li > a {
     padding: 5px 15px 5px 15px;
-    border-left: 1px solid #f22b29;
 }
 
 .nav-tabs.nav-justified > li:first-child > a{
@@ -184,7 +181,7 @@ html, body{
     min-height: 130px;
     background: #e63946 ;
     color: #fff;
-    border-bottom: 1px solid #ccc;
+     border-bottom: 5px solid #cb958e;
 }
 
 #offer-form-heading{
